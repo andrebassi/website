@@ -190,3 +190,23 @@
     transform: scale(1.15);
     filter: brightness(1.1);
 }
+
+/* Nav Highlight (Desktop Version Button) - Glass/Frosted Style */
+.nav-highlight {
+    background: rgba(99, 102, 241, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: var(--accent-primary) !important;
+    padding: var(--space-xs) var(--space-md) !important;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    font-weight: 500 !important;
+    font-size: 0.875rem !important;
+    transition: all var(--transition-fast);
+}
+
+.nav-highlight:hover {
+    background: rgba(99, 102, 241, 0.25);
+    border-color: rgba(99, 102, 241, 0.5);
+    color: var(--accent-primary) !important;
+}

@@ -312,7 +312,7 @@
 }
 
 .highlights-title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: var(--space-xl);
@@ -333,7 +333,7 @@
 }
 
 .highlight-category h4 {
-    font-size: 0.9375rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--accent-primary);
     margin-bottom: var(--space-md);
@@ -347,7 +347,7 @@
     position: relative;
     padding-left: var(--space-lg);
     margin-bottom: var(--space-sm);
-    font-size: 0.8125rem;
+    font-size: 0.9375rem;
     color: var(--text-secondary);
     line-height: 1.5;
 }
